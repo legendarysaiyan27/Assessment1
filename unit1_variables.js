@@ -1,7 +1,7 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
-//CODE HERE 
+//CODE HERE
 const myName = "Braden Toma";
 
 //////////////////PROBLEM 2////////////////////
@@ -10,12 +10,11 @@ const myName = "Braden Toma";
 //CODE HERE
 const faveNum = 27;
 
-
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
-lovesCode = true
+lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -25,10 +24,18 @@ lovesCode = true
 */
 
 //CODE HERE
-if (faveNum = 13){Lucky = "13!"}
-console.log('not lucky 13')
+//.these need to be double or triple equals signs to function properly
 
+if (faveNum === 13) {
+  console.log("lucky 13!");
+} else {
+  console.log("not lucky 13");
+}
 
+if ((faveNum = 13)) {
+  Lucky = "13!";
+}
+console.log("not lucky 13");
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -36,8 +43,7 @@ console.log('not lucky 13')
 */
 
 //CODE HERE
-const n=5
-for (let i=1; i <=n; i++) {
+const n = 5;
+for (let i = 1; i <= n; i++) {
   console.log(25);
 }
-
